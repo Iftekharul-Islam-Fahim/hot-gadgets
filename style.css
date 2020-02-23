@@ -1,0 +1,21 @@
+.carousel-indicators li {
+    background-color: orange;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+}
+.buy-now-button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.carousel-item h1, p {
+    padding-bottom: 10px;
+}
+p {
+    color: dimgray;
+}
