@@ -1,7 +1,6 @@
 .carousel-indicators li {
     background-color: orange;
 }
-
 .carousel-indicators .active {
     opacity: 1;
 }
@@ -18,4 +17,32 @@
 }
 p {
     color: dimgray;
+}
+.carousel {
+    margin-bottom: 100px;
+}
+.smartphone h6 {
+    color: orange;
+}
+.smartphone .d-flex{
+    margin-bottom: 30px;
+}
+.card {
+    padding: 40px 40px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card img {
+    width: 100%;
+}
+.smartphone {
+    margin-bottom: 100px;
+}
+.laptop h6 {
+    color: orange;
+}
+.laptop .d-flex {
+    margin-bottom: 30px;
 }
