@@ -4,7 +4,7 @@ body {
 .carousel-indicators li {
     height: 12px;
     width: 20px;
-    background-color: dimgray;
+    background-color: lightslategrey;
     border: none;
     border-radius: 8px;
 }
@@ -60,4 +60,78 @@ p {
 }
 .laptop {
     margin-bottom: 200px;
+}
+.categories h2 {
+    text-align: center;
+    margin-bottom: 12px;
+}
+.categories .card img {
+    width: 100%;
+}
+.categories p {
+    height: 10px;
+    width: 130px;
+    margin: auto;
+    border: none;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, orange, yellow);
+    margin-bottom: 100px;
+}
+.categories {
+    margin-bottom: 150px;
+}
+.categories h5{
+    padding: 20px;
+}
+.left-upward-image, .left-downward-image {
+    padding: 50px;
+    margin: 20px;
+    border-radius: 20px 5px 30px 5px;
+    box-shadow: 5px 5px 20px lightgray;
+    text-align: center;
+}
+.left-centered-image {
+    padding: 50px;
+    margin: 20px;
+    border-radius: 5px 20px 5px 30px;
+    box-shadow: 5px 5px 10px lightgray;
+    text-align: center;
+}
+.left-centered-image , .left-upward-image, .left-downward-image {
+    transition: 1s;
+}
+.left-centered-image:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 40px darkgray;
+}
+.left-upward-image:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 40px darkgray;
+}
+.left-downward-image:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 40px darkgray;
+}
+.subscribe {
+    padding: 160px;
+    height: 400px;
+}
+.subscribe .section {
+    text-align: center;
+}
+.subscribe h6 {
+    color: dimgray;
+}
+.submit-btn {
+    margin-top: 10px;
+}
+.subscribe-background {
+    background-color: lightgray;
+    border-radius: 8px;
+}
+.subscribe {
+    margin-bottom: 100px;
+}
+footer {
+    text-align: center;
 }
